@@ -1,4 +1,3 @@
-#NFMLC QFYPC JCKML RWNC
 import string
 def main(plain:str,key:int) -> str:
     plain,charset=plain.lower(),{}
@@ -18,8 +17,7 @@ def main(plain:str,key:int) -> str:
     
     return encode(plain,charset).upper() 
 
-#PHONE SHARE LEMON TYPE, Key:3
 for i in range(26):
-    cipher_input="NFMLC QFYPC JCKML RWNC"
+    cipher_input="HERE IS YOUR CIPHER"
     possible_answer=main(cipher_input,i)
     print(f'{possible_answer}, Key:{i+1}')
